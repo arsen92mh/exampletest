@@ -1,0 +1,76 @@
+﻿<Window x:Class="CalculationApp.AssignedTasksWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalculationApp"
+        mc:Ignorable="d"
+        Title="Назначенные задачи" Height="800" Width="1250">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="400"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.ColumnSpan="3" Grid.Row="2" Background="#4E1609"/>
+        <Border Grid.ColumnSpan="3" Grid.Row="0" BorderThickness="2" BorderBrush="Black">
+            <Grid Background="DarkOrange"/>
+        </Border>
+        <Grid Grid.Column="2" Grid.Row="1" Background="DarkOrange"/>
+        <Grid Grid.Column="0" Grid.Row="1" Background="DarkOrange"/>
+        <TextBlock Text="Назначенные задачи" FontSize="60" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        <Grid Background="White"/>
+        <Grid Background="White" Grid.Column="2"/>
+        <Image Source="/Images/Логотип-Photoroom.png-Photoroom.png"/>
+        <Button x:Name="BtnLichnKabinet" Grid.Column="2" BorderBrush="{x:Null}" HorizontalAlignment="Right" Margin="0,0,20,0" Click="BtnLichnKabinet_Click" VerticalAlignment="Center">
+            <Image Source="/Images/free-icon-user-848043.png" Height="55"/>
+        </Button>
+        <ListView Grid.Column="1" Grid.Row="1" x:Name="LvTasks" ScrollViewer.HorizontalScrollBarVisibility="Disabled" MouseDoubleClick="LvTasks_MouseDoubleClick">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,10,0">
+                            <Image Source="/Images/free-icon-note-5885642.png" Width="60"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1" Margin="0,20,0,20">
+                            <TextBlock Text="{Binding Tasks.Name, StringFormat='Наименование задачи: {0}'}" FontSize="34" TextWrapping="Wrap"/>
+                            <TextBlock Text="{Binding Tasks.Cost, StringFormat='Стоимость: {0:N2}'}" FontSize="34" TextWrapping="Wrap"/>
+                            <TextBlock Text="{Binding Tasks.Time, StringFormat='Требуемое время: {0}'}" FontSize="34" Margin="0,5,0,0"/>
+                            <TextBlock Text="{Binding AppointmentDate, StringFormat='Дата назначения: {0}'}" FontSize="34" Margin="0,5,0,0"/>
+                            <TextBlock Text="{Binding DeadlineDate, StringFormat='Дедлайн: {0}'}" FontSize="34" Margin="0,5,0,0"/>
+                            <TextBlock Text="{Binding Status.Name, StringFormat='Статус: {0}'}" FontSize="34" Margin="0,5,0,0"/>
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListView>
+        <StackPanel Grid.Row="1" Grid.Column="2" Margin="0,50,0,0" >
+            <TextBlock Text="Поиск по дате назначения" FontSize="32" HorizontalAlignment="Center"/>
+            <DatePicker x:Name="DpAppointmentDate" FontSize="34" Width="350" FirstDayOfWeek="Monday" Text="Выбор даты назначения" SelectedDateFormat="Short" SelectedDateChanged="DpAppointmentDate_SelectedDateChanged"/>
+            <TextBlock Text="Поиск по наименованию" FontSize="32" HorizontalAlignment="Center" Margin="0,75,0,0"/>
+            <TextBox x:Name="txtName" Margin="0,5,0,0" Width="350" FontSize="34" TextChanged="txtName_TextChanged"/>
+            <Border HorizontalAlignment="Center" BorderBrush="#4E1609" BorderThickness="1" Visibility="Collapsed" x:Name="StStatus" Margin="0,50,0,0">
+                <WrapPanel HorizontalAlignment="Center" Background="White">
+                    <Image Source="/Images/free-icon-done-1873116.png" Width="40" Margin="5,0,0,0" />
+                    <Button BorderBrush="{x:Null}" x:Name="BtnStatus" Content="Выполнена" VerticalAlignment="Top" FontSize="36" HorizontalAlignment="Center" Width="230" Click="BtnStatus_Click" />
+                </WrapPanel>
+            </Border>
+            <StackPanel>
+                <Button x:Name="BtnRaschetZP" Content="Рассчитать ЗП" FontSize="36" Click="BtnRaschetZP_Click" VerticalAlignment="Center" HorizontalAlignment="Center" Width="280" Margin="0,40,0,0" />
+                <StackPanel x:Name="StSalary" Visibility="Collapsed">
+                    <TextBlock Text="Заработная плата" FontWeight="Black" FontSize="38" TextAlignment="Center" HorizontalAlignment="Center" Width="350" Margin="0,20,0,0"/>
+                    <TextBox x:Name="TxtSalary" FontSize="38" IsReadOnly="True" Width="350"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,133 @@
+﻿<Window x:Class="CalculationApp.EmployeesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalculationApp"
+        mc:Ignorable="d"
+        Title="Сотрудники" Height="900" Width="1450">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="290"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="400"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.ColumnSpan="3" Grid.Row="2" Background="#4E1609"/>
+        <Border Grid.ColumnSpan="3" Grid.Row="0" BorderThickness="2" BorderBrush="Black">
+            <Grid Background="DarkOrange"/>
+        </Border>
+        <Grid Grid.Column="2" Grid.Row="1" Background="DarkOrange"/>
+        <Grid Grid.Column="0" Grid.Row="1" Background="DarkOrange"/>
+        <TextBlock Text="Сотрудники" FontSize="56" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        <Grid Background="White"/>
+        <Grid Background="White" Grid.Column="2"/>
+        <Image Source="/Images/Логотип-Photoroom.png-Photoroom.png"/>
+        <StackPanel Grid.Row="1" Grid.Column="0" x:Name="BtnButtons">
+            <Border HorizontalAlignment="Center" x:Name="BtnSpisok" BorderBrush="#4E1609" BorderThickness="1" Margin="0,50,0,0">
+                <WrapPanel HorizontalAlignment="Center" Background="White">
+                    <Image Source="/Images/free-icon-to-do-list-4133971.png" Width="40" Margin="5,0,0,0" />
+                    <Button BorderBrush="{x:Null}" x:Name="BtnVisibleList" Content="Список" VerticalAlignment="Center" FontSize="36" HorizontalAlignment="Center" Width="210" Click="BtnVisibleList_Click"/>
+                </WrapPanel>
+            </Border>
+            <Border HorizontalAlignment="Center" x:Name="BtnNaznach" BorderBrush="#4E1609" BorderThickness="1" Margin="0,80,0,0">
+                <WrapPanel HorizontalAlignment="Center" Background="White">
+                    <Image Source="/Images/free-icon-tasks-6372697.png" Width="40" Margin="5,0,0,0" />
+                    <Button BorderBrush="{x:Null}" x:Name="BtnVisibleAssigned" Content="Назначение" VerticalAlignment="Center" FontSize="36" HorizontalAlignment="Center" Width="210" Click="BtnVisibleAssigned_Click"/>
+                </WrapPanel>
+            </Border>
+        </StackPanel>
+        <ListView Grid.Column="1" Grid.Row="1" x:Name="LvEmployees" ScrollViewer.HorizontalScrollBarVisibility="Disabled" MouseDoubleClick="LvEmployees_MouseDoubleClick">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="300"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10,0,10,0">
+                            <Image Source="{Binding Photo}" Width="250"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1" Margin="30,20,0,40">
+                            <TextBlock Text="{Binding Surname, StringFormat='Фамилия: {0}'}" FontSize="36" TextWrapping="Wrap"/>
+                            <TextBlock Text="{Binding Name, StringFormat='Имя: {0}'}" FontSize="36" TextWrapping="Wrap"/>
+                            <TextBlock Text="{Binding Patronymic, StringFormat='Отчество: {0}'}" FontSize="36" Margin="0,5,0,0"/>
+                            <TextBlock Text="{Binding Email, StringFormat='Почта: {0}'}" FontSize="36" Margin="0,5,0,0"/>
+                            <TextBlock Text="{Binding Phone, StringFormat='Телефон: {0}'}" FontSize="36" Margin="0,5,0,0"/>
+                            <TextBlock Text="{Binding Roles.Name, StringFormat='Должность: {0}'}" FontSize="36" Margin="0,5,0,0"/>
+                            <TextBlock Text="{Binding Password, StringFormat='Пароль: {0}'}" FontSize="36" Margin="0,5,0,0"/>
+                            <TextBlock Text="{Binding CategoriesOfEmployees.Name, StringFormat='Категория сотрудника: {0}'}" Visibility="{Binding VisibleCategory}" FontSize="36" Margin="0,5,0,0"/>
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListView>
+        <TextBlock Grid.Column="1" Grid.Row="1" Text="Назначенные задачи" FontSize="34" HorizontalAlignment="Center" VerticalAlignment="Top" x:Name="TxtTasks" Margin="0,470,0,0" Visibility="Collapsed"/>
+        <ListView Grid.Column="1" Grid.Row="1" x:Name="LvTasks" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Visibility="Collapsed" Margin="0,520,0,0">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,10,0">
+                            <Image Source="/Images/free-icon-note-5885642.png" Width="60"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1" Margin="0,20,0,20">
+                            <TextBlock Text="{Binding Tasks.Name, StringFormat='Наименование задачи: {0}'}" FontSize="34" TextWrapping="Wrap"/>
+                            <TextBlock Text="{Binding Tasks.Cost, StringFormat='Стоимость: {0:N2}'}" FontSize="34" TextWrapping="Wrap"/>
+                            <TextBlock Text="{Binding AppointmentDate, StringFormat='Дата назначения: {0}'}" FontSize="34" Margin="0,5,0,0"/>
+                            <TextBlock Text="{Binding DeadlineDate, StringFormat='Дедлайн: {0}'}" FontSize="34" Margin="0,5,0,0"/>
+                            <TextBlock Text="{Binding Status.Name, StringFormat='Статус: {0}'}" FontSize="34" Margin="0,5,0,0"/>
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListView>
+        <Button x:Name="BtnLichnKabinet" Grid.Column="2" BorderBrush="{x:Null}" HorizontalAlignment="Right" Margin="0,0,20,0" Click="BtnLichnKabinet_Click" VerticalAlignment="Center">
+            <Image Source="/Images/free-icon-user-848043.png" Height="55"/>
+        </Button>
+        <StackPanel Grid.Row="1" Grid.Column="2" Margin="0,30,0,0" x:Name="StSortDelete">
+            <StackPanel HorizontalAlignment="Center" Background="Orange">
+                <TextBlock Text="Поиск по должности" FontSize="36" Width="320" TextAlignment="Center"/>
+                <ComboBox x:Name="cmbSortRole" FontSize="36" Width="350" SelectionChanged="cmbSortRole_SelectionChanged"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center" Background="Orange" Margin="0,60,0,0">
+                <TextBlock Text="Поиск по категории" FontSize="36" HorizontalAlignment="Center" Width="350" Background="Orange" TextAlignment="Center"/>
+                <ComboBox x:Name="cmbSortCategory" FontSize="36" Width="350" SelectionChanged="cmbSortCategory_SelectionChanged"/>
+            </StackPanel>
+            <Border HorizontalAlignment="Center" BorderBrush="#4E1609" BorderThickness="1" x:Name="StDeleteTask" Margin="0,50,0,0" Visibility="Collapsed">
+                <WrapPanel HorizontalAlignment="Center" Background="White">
+                    <Image Source="/Images/free-icon-remove-file-7274187.png" Width="40" Margin="5,0,0,0" />
+                    <Button BorderBrush="{x:Null}" x:Name="BtnDeleteTask" Content="Удалить задачу" VerticalAlignment="Top" FontSize="36" HorizontalAlignment="Center" Width="330" Click="BtnDeleteTask_Click"/>
+                </WrapPanel>
+            </Border>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Grid.Row="1" x:Name="StNaznach" Margin="50,90,0,0" Visibility="Collapsed">
+            <StackPanel Orientation="Horizontal" Background="Orange" HorizontalAlignment="Left">
+                <TextBlock Text=" Выберите сотрудника: " FontSize="38" />
+                <ComboBox x:Name="cmbEmployee" FontSize="34" Width="600" DisplayMemberPath="Surname" SelectedValuePath="IdUser" SelectionChanged="cmbEmployee_SelectionChanged"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,90,0,0" x:Name="StOrder" Visibility="Collapsed" Background="Orange" HorizontalAlignment="Left">
+                <TextBlock Text=" Выберите заказ: " FontSize="38" />
+                <ComboBox x:Name="cmbOrder" FontSize="34" Width="600" DisplayMemberPath="IdProject" SelectedValuePath="IdProject" Margin="75,0,0,0" SelectionChanged="cmbOrder_SelectionChanged"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,90,0,0" x:Name="StTask" Visibility="Collapsed" Background="Orange" HorizontalAlignment="Left">
+                <TextBlock Text=" Выберите задачу: " FontSize="38" />
+                <ComboBox x:Name="cmbTask" FontSize="34" Width="600" DisplayMemberPath="Tasks.Name" SelectedValuePath="IdTask" Margin="60,0,0,0" SelectionChanged="cmbTask_SelectionChanged" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="10,90,0,0" HorizontalAlignment="Left" x:Name="StDates" Visibility="Collapsed">
+                <TextBlock Text="Дата назначения: " FontSize="38" Background="Orange"/>
+                <TextBox FontSize="38" IsReadOnly="True" x:Name="TxtAppointmentDate" BorderBrush="{x:Null}" Background="Orange"/>
+                <TextBlock Text="Дата дедлайна: " FontSize="38" Margin="45,0,0,0" Background="Orange"/>
+                <TextBox FontSize="38" x:Name="TxtDeadlineDate" BorderBrush="{x:Null}" Background="Orange" IsReadOnly="True"/>
+            </StackPanel>
+            <Button x:Name="btnZapis" Content="Назначить" HorizontalAlignment="Right" Margin="0,50,30,0" FontSize="38" Background="Orange" Height="50" Width="250" Click="btnZapis_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

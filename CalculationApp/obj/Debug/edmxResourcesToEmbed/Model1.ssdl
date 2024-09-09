@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище CalculationModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AssignedTasks">
+    <Key>
+      <PropertyRef Name="IdTask" />
+      <PropertyRef Name="IdProject" />
+    </Key>
+    <Property Name="IdUser" Type="int" />
+    <Property Name="IdTask" Type="int" Nullable="false" />
+    <Property Name="IdProject" Type="int" Nullable="false" />
+    <Property Name="AppointmentDate" Type="date" Nullable="false" />
+    <Property Name="IdStatus" Type="int" />
+    <Property Name="DeadlineDate" Type="date" />
+    <Property Name="DateOfCompletion" Type="date" />
+  </EntityType>
+  <EntityType Name="CategoriesOfEmployees">
+    <Key>
+      <PropertyRef Name="IdCategory" />
+    </Key>
+    <Property Name="IdCategory" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="MinSalary" Type="money" />
+  </EntityType>
+  <EntityType Name="Difficulties">
+    <Key>
+      <PropertyRef Name="IdDifficulties" />
+    </Key>
+    <Property Name="IdDifficulties" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="IdCategory" Type="int" Nullable="false" />
+    <Property Name="PercentageOfCost" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Projects">
+    <Key>
+      <PropertyRef Name="IdProject" />
+    </Key>
+    <Property Name="IdProject" Type="int" Nullable="false" />
+    <Property Name="IdService" Type="int" Nullable="false" />
+    <Property Name="OrderAcceptanceDate" Type="date" Nullable="false" />
+    <Property Name="StartDate" Type="date" Nullable="false" />
+    <Property Name="EndDate" Type="date" Nullable="false" />
+    <Property Name="Cost" Type="money" Nullable="false" />
+    <Property Name="IdUser" Type="int" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="IdRole" />
+    </Key>
+    <Property Name="IdRole" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Services">
+    <Key>
+      <PropertyRef Name="IdService" />
+    </Key>
+    <Property Name="IdService" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Cost" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="IdStatus" />
+    </Key>
+    <Property Name="IdStatus" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Tasks">
+    <Key>
+      <PropertyRef Name="IdTask" />
+    </Key>
+    <Property Name="IdTask" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="IdDifficulti" Type="int" Nullable="false" />
+    <Property Name="IdService" Type="int" Nullable="false" />
+    <Property Name="Cost" Type="money" Nullable="false" />
+    <Property Name="Time" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="IdUser" />
+    </Key>
+    <Property Name="IdUser" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Patronymic" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="11" Nullable="false" />
+    <Property Name="IdRole" Type="int" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+    <Property Name="Name_photo" Type="nvarchar" MaxLength="255" />
+    <Property Name="Photo" Type="varbinary(max)" />
+    <Property Name="IdCategory" Type="int" />
+  </EntityType>
+  <Association Name="FK_AssignedTasks_Orders">
+    <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+    <End Role="AssignedTasks" Type="Self.AssignedTasks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Projects">
+        <PropertyRef Name="IdProject" />
+      </Principal>
+      <Dependent Role="AssignedTasks">
+        <PropertyRef Name="IdProject" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AssignedTasks_Status">
+    <End Role="Status" Type="Self.Status" Multiplicity="0..1" />
+    <End Role="AssignedTasks" Type="Self.AssignedTasks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status">
+        <PropertyRef Name="IdStatus" />
+      </Principal>
+      <Dependent Role="AssignedTasks">
+        <PropertyRef Name="IdStatus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AssignedTasks_Tasks">
+    <End Role="Tasks" Type="Self.Tasks" Multiplicity="1" />
+    <End Role="AssignedTasks" Type="Self.AssignedTasks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tasks">
+        <PropertyRef Name="IdTask" />
+      </Principal>
+      <Dependent Role="AssignedTasks">
+        <PropertyRef Name="IdTask" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AssignedTasks_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="AssignedTasks" Type="Self.AssignedTasks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="IdUser" />
+      </Principal>
+      <Dependent Role="AssignedTasks">
+        <PropertyRef Name="IdUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Difficulties_CategoriesOfEmployees">
+    <End Role="CategoriesOfEmployees" Type="Self.CategoriesOfEmployees" Multiplicity="1" />
+    <End Role="Difficulties" Type="Self.Difficulties" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CategoriesOfEmployees">
+        <PropertyRef Name="IdCategory" />
+      </Principal>
+      <Dependent Role="Difficulties">
+        <PropertyRef Name="IdCategory" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_Services">
+    <End Role="Services" Type="Self.Services" Multiplicity="1" />
+    <End Role="Projects" Type="Self.Projects" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Services">
+        <PropertyRef Name="IdService" />
+      </Principal>
+      <Dependent Role="Projects">
+        <PropertyRef Name="IdService" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Projects_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Projects" Type="Self.Projects" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="IdUser" />
+      </Principal>
+      <Dependent Role="Projects">
+        <PropertyRef Name="IdUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tasks_Difficulties">
+    <End Role="Difficulties" Type="Self.Difficulties" Multiplicity="1" />
+    <End Role="Tasks" Type="Self.Tasks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Difficulties">
+        <PropertyRef Name="IdDifficulties" />
+      </Principal>
+      <Dependent Role="Tasks">
+        <PropertyRef Name="IdDifficulti" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tasks_Services">
+    <End Role="Services" Type="Self.Services" Multiplicity="1" />
+    <End Role="Tasks" Type="Self.Tasks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Services">
+        <PropertyRef Name="IdService" />
+      </Principal>
+      <Dependent Role="Tasks">
+        <PropertyRef Name="IdService" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_CategoriesOfEmployees">
+    <End Role="CategoriesOfEmployees" Type="Self.CategoriesOfEmployees" Multiplicity="0..1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CategoriesOfEmployees">
+        <PropertyRef Name="IdCategory" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="IdCategory" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_Roles">
+    <End Role="Roles" Type="Self.Roles" Multiplicity="1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="IdRole" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="IdRole" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище CalculationModelContainer">
+    <EntitySet Name="AssignedTasks" EntityType="Self.AssignedTasks" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CategoriesOfEmployees" EntityType="Self.CategoriesOfEmployees" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Difficulties" EntityType="Self.Difficulties" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Projects" EntityType="Self.Projects" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Services" EntityType="Self.Services" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Status" EntityType="Self.Status" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tasks" EntityType="Self.Tasks" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_AssignedTasks_Orders" Association="Self.FK_AssignedTasks_Orders">
+      <End Role="Projects" EntitySet="Projects" />
+      <End Role="AssignedTasks" EntitySet="AssignedTasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AssignedTasks_Status" Association="Self.FK_AssignedTasks_Status">
+      <End Role="Status" EntitySet="Status" />
+      <End Role="AssignedTasks" EntitySet="AssignedTasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AssignedTasks_Tasks" Association="Self.FK_AssignedTasks_Tasks">
+      <End Role="Tasks" EntitySet="Tasks" />
+      <End Role="AssignedTasks" EntitySet="AssignedTasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AssignedTasks_Users" Association="Self.FK_AssignedTasks_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="AssignedTasks" EntitySet="AssignedTasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Difficulties_CategoriesOfEmployees" Association="Self.FK_Difficulties_CategoriesOfEmployees">
+      <End Role="CategoriesOfEmployees" EntitySet="CategoriesOfEmployees" />
+      <End Role="Difficulties" EntitySet="Difficulties" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_Services" Association="Self.FK_Orders_Services">
+      <End Role="Services" EntitySet="Services" />
+      <End Role="Projects" EntitySet="Projects" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Projects_Users" Association="Self.FK_Projects_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Projects" EntitySet="Projects" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tasks_Difficulties" Association="Self.FK_Tasks_Difficulties">
+      <End Role="Difficulties" EntitySet="Difficulties" />
+      <End Role="Tasks" EntitySet="Tasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tasks_Services" Association="Self.FK_Tasks_Services">
+      <End Role="Services" EntitySet="Services" />
+      <End Role="Tasks" EntitySet="Tasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_CategoriesOfEmployees" Association="Self.FK_Users_CategoriesOfEmployees">
+      <End Role="CategoriesOfEmployees" EntitySet="CategoriesOfEmployees" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_Roles" Association="Self.FK_Users_Roles">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

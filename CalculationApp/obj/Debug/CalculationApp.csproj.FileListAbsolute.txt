@@ -1,0 +1,165 @@
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\bin\Debug\CalculationApp.exe.config
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\bin\Debug\CalculationApp.exe
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\bin\Debug\CalculationApp.pdb
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\bin\Debug\EntityFramework.dll
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\bin\Debug\EntityFramework.xml
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.AssemblyReference.cache
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\obj\Debug\MainWindow.g.cs
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\obj\Debug\App.g.cs
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\obj\Debug\CalculationApp_Content.g.cs
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\obj\Debug\CalculationApp_MarkupCompile.cache
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\obj\Debug\CalculationApp_MarkupCompile.lref
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\obj\Debug\MainWindow.baml
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\obj\Debug\CalculationApp.g.resources
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\obj\Debug\CalculationApp.Properties.Resources.resources
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.GenerateResource.cache
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.CoreCompileInputs.cache
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.CopyComplete
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\obj\Debug\CalculationApp.exe
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\obj\Debug\CalculationApp.pdb
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\obj\Debug\AuthorizationWindow.g.cs
+C:\Users\Карина\source\repos\CalculationApp\CalculationApp\obj\Debug\AuthorizationWindow.baml
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\bin\Debug\CalculationApp.exe.config
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\bin\Debug\CalculationApp.exe
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\bin\Debug\CalculationApp.pdb
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\bin\Debug\EntityFramework.dll
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\bin\Debug\EntityFramework.xml
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.AssemblyReference.cache
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\AuthorizationWindow.g.cs
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\LichnKabinet.g.cs
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\MainWindow.g.cs
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\App.g.cs
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\CalculationApp_Content.g.cs
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\CalculationApp_MarkupCompile.cache
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\CalculationApp_MarkupCompile.lref
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\App.baml
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\AuthorizationWindow.baml
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\LichnKabinet.baml
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\MainWindow.baml
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\CalculationApp.g.resources
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\CalculationApp.Properties.Resources.resources
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.GenerateResource.cache
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.CoreCompileInputs.cache
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.CopyComplete
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\CalculationApp.exe
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\CalculationApp.pdb
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\EmployeesWindow.g.cs
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\EmployeesWindow.baml
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\AssignedTasksWindow.g.cs
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\AssignedTasksWindow.baml
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\CalculationOrdersWindow.g.cs
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\CalculationOrdersWindow.baml
+C:\Users\Карина\Desktop\Карина\Курсач перед дипломом\Приложение\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.ResolveComReference.cache
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\bin\Debug\CalculationApp.exe.config
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\bin\Debug\CalculationApp.exe
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\bin\Debug\CalculationApp.pdb
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\bin\Debug\EntityFramework.dll
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\bin\Debug\EntityFramework.xml
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.AssemblyReference.cache
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.ResolveComReference.cache
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\AssignedTasksWindow.g.cs
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\AuthorizationWindow.g.cs
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationOrdersWindow.g.cs
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\EmployeesWindow.g.cs
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\LichnKabinet.g.cs
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\MainWindow.g.cs
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\App.g.cs
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp_Content.g.cs
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp_MarkupCompile.cache
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp_MarkupCompile.lref
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\App.baml
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\AssignedTasksWindow.baml
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\AuthorizationWindow.baml
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationOrdersWindow.baml
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\EmployeesWindow.baml
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\LichnKabinet.baml
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\MainWindow.baml
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.g.resources
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.Properties.Resources.resources
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.GenerateResource.cache
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.CoreCompileInputs.cache
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.CopyComplete
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.exe
+C:\Users\Карина\Desktop\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.pdb
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.AssemblyReference.cache
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.ResolveComReference.cache
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\AssignedTasksWindow.g.cs
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\AuthorizationWindow.g.cs
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationOrdersWindow.g.cs
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\EmployeesWindow.g.cs
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\LichnKabinet.g.cs
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\MainWindow.g.cs
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\App.g.cs
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp_Content.g.cs
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp_MarkupCompile.cache
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp_MarkupCompile.lref
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.exe
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.pdb
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\bin\Debug\CalculationApp.exe.config
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\bin\Debug\CalculationApp.exe
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\bin\Debug\CalculationApp.pdb
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\bin\Debug\EntityFramework.dll
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\bin\Debug\EntityFramework.xml
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\App.baml
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\AssignedTasksWindow.baml
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\AuthorizationWindow.baml
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationOrdersWindow.baml
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\EmployeesWindow.baml
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\LichnKabinet.baml
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\MainWindow.baml
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.g.resources
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.Properties.Resources.resources
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.GenerateResource.cache
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.CoreCompileInputs.cache
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Калькуляция работ по разработке программного обеспечения в ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.CopyComplete
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\bin\Debug\CalculationApp.exe.config
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\bin\Debug\CalculationApp.exe
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\bin\Debug\CalculationApp.pdb
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\bin\Debug\EntityFramework.dll
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\bin\Debug\EntityFramework.xml
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.AssemblyReference.cache
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.ResolveComReference.cache
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\AssignedTasksWindow.g.cs
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\AuthorizationWindow.g.cs
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationOrdersWindow.g.cs
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\EmployeesWindow.g.cs
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\LichnKabinet.g.cs
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\MainWindow.g.cs
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\App.g.cs
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp_Content.g.cs
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp_MarkupCompile.cache
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp_MarkupCompile.lref
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\App.baml
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\AssignedTasksWindow.baml
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\AuthorizationWindow.baml
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationOrdersWindow.baml
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\EmployeesWindow.baml
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\LichnKabinet.baml
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\MainWindow.baml
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.g.resources
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.Properties.Resources.resources
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.GenerateResource.cache
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.CoreCompileInputs.cache
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.csproj.CopyComplete
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.exe
+C:\Users\Карина\Desktop\Карина\Диплом\ИС «Деятельность ООО «АртКлён»\Приложение Calculation\CalculationApp\CalculationApp\obj\Debug\CalculationApp.pdb
